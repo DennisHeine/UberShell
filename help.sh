@@ -1,1 +1,2 @@
-less /home/dehe/help.txt
+#!/bin/bash
+less ~/help.txt
