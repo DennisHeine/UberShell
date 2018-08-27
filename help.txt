@@ -1,5 +1,8 @@
 Custom Commands
 =======================================================
+WINDOW CONTROL: To navigate between the split windows
+                use alt+<direction>
+				
 cscript <script>: executes a C/C++ script.
          example: cscript "printf(\"Hello World!\");"
 noobhelp: Short desc of commands in /bin/
