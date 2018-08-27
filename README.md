@@ -4,5 +4,35 @@ Enhanced shell with multiple windows and added commands
 To install run:
 sh <(curl https://raw.githubusercontent.com/DennisHeine/UberShell/master/install_ubershell.sh)
 
+Custom commands added to the default shell (zsh):
+-------------------------------------------------------------------------------------------
+cscript <script>: executes a C/C++ script.
+         example: cscript "printf(\"Hello World!\");"
+noobhelp: Short desc of commands in /bin/
+memusage: Top memory usage
+topdirs: Top directory space usage
+push/pop: Save current dir / return there
+serve: Opens a webserver at port 8084 and serves a file
+servedir: Opens a webserver at port 8000 and serves a dir
+servelog: Serves tail of syslog on port 12345
+sizeof: List total sizes of subdirectorys
+largedirs: Lists directorys with 100+ MB disk usage
+mkdirc <dir>: Creates a dir and changes to it
+freefile <file>: Kills all processes using a file
+lastedited: Shows which files have been edited
+findbin: Finds binary files not installed by dpkg
+frename <from> <to>: Renames parts of a filename
+connections: Shows network connections
+whoblocks <port>: Shows programs blocking a port
+encrypt <file> / decrypt <file>: encrypts/decrypts a file
+mostrecent: Shows last few edited files
+postoutput <cmd>: Creates pastebin of <cmd> output
+posttext <txt>: Creates pastebin with content <txt>
+dict <term>: Shows the definition of <term>
+geoip <ip>: Gets GeoIP information about <ip>
+google <term>: Googles for <term> 
+whichpkg <file>: find out which package a file belongs to
+genshellacc: Creates a free shell acoount at hashbang.org
+hibp <pass>: Checks if <pass> has been cracked.
 
 ![Screenshot](https://s8.postimg.cc/hk8783wv7/Untitled.png?dl=1)
